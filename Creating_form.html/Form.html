@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form  method="GET" action="http://jkorpela.fi/cgi-bin/echo.cgi">          
+            <!-- In form tag we can give the server link  -->
+            <!-- Name : <input type="text" placeholder="Enter Name" value="Alina" > 1st method -->
+            <p>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Name" value="Alina" id="name" name="name">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="Enter email" value="Alina12345@gmail.com" id="email" name="email">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" placeholder="password" value="Enter Password" id="Password" name="password">
+            </p>
+            <p>
+                <label for ="color">Color</label>
+                <select id="color" name="color">
+                    <option value="R">Red</option>
+                    <option value="B">Blue</option>
+                    <option value="Br">Brown</option>
+                    <option value="O" selected>Orange</option>
+                    <option value="G">Green</option>
+                    <option value="M">Maroon</option>
+                    <option value="W">White</option>
+                </select>
+            </p>
+            <p>
+                <!-- Gender : <input type="radio" name="gender">Male
+                         <input type="radio" name="gender">Female   .....method 1        -->
+                 Gender : <input type="radio" name="gender" id="male" value="M">
+                 <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="F" checked >
+                <label for="female">Female</label> 
+                <INPUT TYPE="radio" name="gender" id="others" value="O">
+                    <label for="others">Others</label>
+            </p>
+            <p>
+                Passed : 
+                <label for="matric">Matric</label>
+                <input type="checkbox" id="matric" name="matric" value="M">
+                <label for="inter">Inter</label>
+                <input type="checkbox" id="inter"  name="inter" value="I">
+                <label for="graduate">Graduate</label>
+                <input type="checkbox" id="graduate"  name="graduate" value="G" checked>
+                <label for="post-graduate">Post-Graduate</label>
+                <input type="checkbox" id="post-graduate"  name="post-graduate" value="PG">
+            </p>
+            <p>
+                <label for="about">About</label>
+                <textarea id="about" name="about">If I were You I will definetly do this </textarea>
+            </p>
+            <input type="submit"  value="Signup">
+            <p>
+                <input type="date" name="DateofBirth">
+            </p>
+        </form>
+    </body>
+</html>

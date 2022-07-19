@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+
+
+*{
+   font-family: "Georama" , sans-serif;
+   box-sizing: border-box;
+}
+
+/* div{
+    border: 1px solid navy;
+} */
+body{
+    margin: 0%;
+    background-color: #fbecec;
+}
+ .header{
+     background-color: #002366;
+     border-bottom: 0.5rem solid #91d18b;
+}
+.logo{
+    color: #fbecec;
+    padding: 1.5rem;
+    margin: 0%;
+}
+
+.footer{
+    /* background-color: RGBA(50, 255, 255, 35%); */
+    /* border: 1px solid navy; */
+    clear: both;
+    /* margin:left; */
+    /* width:100%; */
+    padding:1.2rem;
+    background-color:#002366 ;
+    color: #fbecec;
+}
+.category-column{
+    width: 25%;
+    float: left;
+   padding: 1.2rem;
+    /* background-color: RGBA(255, 50, 50, 35%); */
+}
+.headline-column{
+    width: 50%;
+    float: left;
+    padding: 1.2rem;
+    /* background-color: RGBA( 50,255, 50, 35%); */
+    
+}
+.weather-column{
+    width: 25%;
+    float: left;
+    padding: 1.2rem;
+    /* background-color: RGBA( 50, 50, 255,35%); */
+} 
+.heading{
+    color:#BD4B4B;
+    margin: 1.2rem;
+}
+.content{
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.5rem;
+    /* padding-left: 1.2rem;
+    padding-right: 1.2rem; */
+  
+}
+.news-title , .category-item{
+    /* padding-top:0.6rem;
+    padding-bottom: 0.6rem; */
+    color:#002366;
+    margin: 1.2rem;
+    
+}
+.news-title:hover{
+    color:#e11d74;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.weather-degree{
+    text-align: center;
+    color: #91d188;
+    font-size: 6.5rem;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            News-signup
+        </title>
+        <link rel="stylesheet" href="news_grid.css">
+
+    </head>
+    <body>
+        <div class="header">
+        <h1 class="logo">NEWS</h1>
+        <a class="nav-link" href="#">Signin</a>
+        <a class="nav-link " href="news-signup.html">Signup</a>
+        </div>
+        <div class="signup-container">
+           <h2 class="heading">Signup</h2>
+            <form  method="GET" action="http://jkorpela.fi/cgi-bin/echo.cgi">          
+                <!-- In form tag we can give the server link  -->
+                <!-- Name : <input type="text" placeholder="Enter Name" value="Alina" > 1st method -->
+                <div class="form-element-container">
+                <div class="form-element">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Name" value="Alina" id="name" name="name">
+                </div>
+                <div class="form-element">
+                    <label for="email">E-mail</label>
+                    <input type="text" placeholder="Enter email" value="alina12345@gmail.com" id="email" name="email">
+                </div>
+                <div class="form-element">
+                    <label for="password">Password </label>
+                    <input type="password" placeholder="password" value="Enter Password" id="Password" name="password">
+                </div>
+                <div class="form-element">
+                    <label for ="color">Color</label>
+                    <select id="color" name="color">
+                        <option value="R">Red</option>
+                        <option value="B">Blue</option>
+                        <option value="Br">Brown</option>
+                        <option value="O" selected>Orange</option>
+                        <option value="G">Green</option>
+                        <option value="M">Maroon</option>
+                        <option value="W">White</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <!-- Gender : <input type="radio" name="gender">Male
+                             <input type="radio" name="gender">Female   .....method 1        -->
+                     <label>Gender</label>
+                       <input type="radio" name="gender" id="male" value="M">
+                     <label class="label-radio" for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="F" checked >
+                    <label class="label-radio" for="female">Female</label> 
+                    <!-- <INPUT TYPE="radio" name="gender" id="others" value="O">
+                        <label for="others">Others</label> -->
+                </div>
+                <div class="form-element">
+                    Qualification<br>
+                    <label class="label-form" for="matric">Matric</label>
+                    <input type="checkbox" id="matric" name="matric" value="M"><br>
+                    <label  class="label-form" for="inter">Inter</label>
+                    <input type="checkbox" id="inter"  name="inter" value="I"><br>
+                    <label class="label-form" for="graduate">Graduate</label>
+                    <input  type="checkbox" id="graduate"  name="graduate" value="G" checked><br>
+                    <label class="label-form" for="post-graduate">Post-Graduate</label>
+                    <input type="checkbox" id="post-graduate"  name="post-graduate" value="PG">
+                </div>
+               
+               </div>
+               <div class="form-element">
+                <label for="about">About </label>
+                <textarea id="about" name="about">If I were You I will definitely do this </textarea>
+            </div>
+            <input type="submit"  value="Signup">
+            </form>
+        </div>
+        <div class="footer">
+            Copyright@2021
+        </div>
+    </body>
+</html>

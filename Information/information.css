@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+.profile-name{
+    font-family: MonteCarlo;
+    font-weight: bold;
+    color: #BA135D;
+}
+.profile{
+    width: 10%;
+    margin:1 rem;
+    float: left;
+}
+.profile-name{
+    margin: 0;
+}
+.profile-info{
+    float: left;
+}
+.role{
+    margin: 0%;
+    color: #0F52BA;
+}
+.location{
+    margin: 0.5rem 0rem 1rem 0rem ;
+    color:#72147E;
+}
+.section{
+    clear: both;
+    color:#F21170;
+}
+.about{
+    width:50%;
+    clear: left;
+    float: left;
+    padding-right: 2rem;
+    border-right: 1px solid gray;
+
+}
+.skills{
+    width:20%;
+    float: left
+    padding-left-2rem;
+}

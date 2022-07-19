@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url("Font/RobotoSlab-VariableFont_wght.ttf");
+}
+body{
+    font-family: "RobotoSlab";
+}
+
+div{
+    width: 500px;
+    
+    margin: auto;
+ }
+ span{
+     color:#b33d3d;
+ }
+ .article{
+     width: 50%;
+     margin: auto;
+     border: 2px solid #dddddd;
+     border-radius: 5px;
+     padding: 20px;
+ }
+ .article-image{
+     width:30%;
+     float: right;
+     padding:10px;
+ }
+ .heading{
+     color:#5dbff0;
+ }
+ .sub-heading{
+     color:#f05d7f;
+ }
+ .article-para{
+     color:#3da5b3;
+     text-align: justify;
+ }
+ * {
+     border: 2px solid burlywood;
+ }

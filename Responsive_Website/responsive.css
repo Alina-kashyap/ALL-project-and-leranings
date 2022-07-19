@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1,h3,p{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+   
+    border:2px solid #dddddd;
+    border-radius: 10px;
+}
+ .article{
+    width: 50%;
+    margin: auto;
+    /* margin: auto; */
+    /* border:2px solid #dddddd;             this .article & .article-image is for computer screen
+    border-radius: 10px; */
+    padding:20px;
+}
+ 
+ .article_image{
+     width:30%;
+     float: right;
+     margin-left: 10px;
+     /* position: absolute; */
+ }
+
+
+
+@media screen and (max-width: 414px) {
+    .article{
+        width:100%;
+        padding:0;
+    }
+                                   /* this media query is for mobile users */
+    .article_image{
+        width:100%;
+    }
+}
+
+@media screen 
+and (min-width:415px)
+and (max-width: 1024px)
+ {
+     .article{
+         width:80%;
+                                   /* this media queary is for tab users */
+            }
+     .article_image{
+         width:40%;
+     }
+    
+}
+                          
+ span{
+    color:blue;
+}
+h1{
+    color:teal
+}
+.sub-heading{
+    color:#999;
+}

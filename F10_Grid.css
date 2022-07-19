@@ -1,0 +1,15 @@
+
+.item{
+    border: 3px solid green;
+    height:100px;
+    /* width:100px; */
+    display: flex;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+   border: 3px solid red;
+  
+}

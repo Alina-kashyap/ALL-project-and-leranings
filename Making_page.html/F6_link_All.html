@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight</title>
+       <link rel="stylesheet" href="Style/All.css">
+       <!-- <link rel="stylesheet" href="Style/F7_changeLink.css"> -->
+    </head>
+    <body>
+        <div class= "nav">
+        <h1 class="logo">Strat Hawk</h1>
+        <a class="nav-items" href="F1_Home.html">Home</a>
+        <a class="nav-items" href="F2_bookings.html">Bookings</a>
+        <a class="nav-items" href="F3_destinations.html">Destinations</a>
+        <a class="nav-items" href="F4_signup.html">Signup</a>
+        <a class="nav-items" href="F5_login.html">Login</a><br>
+        </div>
+        <h2 class="heading">Plan</h2>
+        <img src="Imagess/Flight.jpeg" width="25%" padding="50px">
+        <h2 class="heading">Search Flight</h2>
+        <form>
+            <input type="text" placeholder="From">
+            <input type="text" placeholder="To">
+            <input type="date" placeholder="Travel date yyyy-mm-dd">
+            <select>
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First</option>
+            </select>
+            <input type="submit" value="Search">
+        </form>
+        <h2 class="heading">Recommended Flights</h2>
+        <table cellpadding="10" border="1" cellspacing="0">
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288</td>
+               <td><div>Berlin(BER)</div>
+                <div>21:00 </div>
+                <div>wed 28 Oct 2021</div>
+            </td>
+               <td><div>49 hrs 5 mins</div></td>
+               <td><div>Sydney (SYD)</div>
+                <div> 08:05</div>
+                <div> Sat 31 Oct 2021</div></td>
+               <td>$344</td>
+               <td>
+                   <input type="submit" value="Book">
+               </td>
+            </tr>
+            <tr>
+                <td>SH245</td>
+                <td><div>Sydney (SYD)</div>
+                    <div> 22:25</div>
+                    <div> Tue 10 Nov 2021</div></td>
+                <td><div>23 hrs 55 mins</div></td>
+                <td><div>Berlin (BER)</div>
+                    <div> 12:20 </div>
+                    <div>Wed 11 Nov 2021</div></td>
+                <td>$801</td>
+                <td>
+                <input type="submit" value="Book">
+                </td>
+            </tr>
+                </table>
+    </body>
+</html>
